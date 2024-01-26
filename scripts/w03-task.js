@@ -62,7 +62,7 @@ function getTotal() {
     if (document.getElementById('member').checked) {
     subtotal = subtotal- subtotal * .2;
     } 
-    document.getElementById('total').textContent = `${subtotal.toFixed(2)}`;
+    document.getElementById('total').textContent = `$${subtotal.toFixed(2)}`;
 }
 document.getElementById('getTotal').addEventListener('click', getTotal); 
 
