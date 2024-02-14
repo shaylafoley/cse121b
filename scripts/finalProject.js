@@ -16,7 +16,7 @@ bdayMessage(data);
     }
 }
 
-// displayUsers function
+// displayUsers function to create the list of employees
 function displayUsers(data) {
     const bdayList = document.querySelector('ul');
     data.forEach(employee => {
@@ -26,9 +26,11 @@ function displayUsers(data) {
             
     });
 }
+
+//display the users and message for birthdays
 getUsers(url);
 
-
+//function to create a birthday message for the employees whose birthday lie within the current month
 function bdayMessage(data) {
     const currentMonth = new Date().getMonth();
 
