@@ -65,3 +65,5 @@ getTemples();
 /* Event Listener */
 document.querySelector('#filtered').addEventListener('change', () => {filterTemples(templeList);
 });
+
+document.getclass
